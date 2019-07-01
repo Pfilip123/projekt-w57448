@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Rozliczenie";
+}
+
+<main>
+    <nav style="background-color:#99CCFF" class="text-center py-3">
+        <a href="@Url.Action("Index","Home")"><img src="~/Content/obrazki/u5.png" class="float-left mt-2 ml-4" /></a>
+        <h2 class="lokalizacja-h2 font-weight-bold">Cennik</h2>
+    </nav>
+    <section class="row m-auto py-5">
+        <div class="form-group m-auto">
+            <label class="control-label">Dane klienta</label>
+            <input type="text" class="form-control" />
+            <label class="control-label">Marka</label>
+            <input type="text" class="form-control" />
+            <label class="control-label">Rok</label>
+            <input type="text" class="form-control" />
+            <label class="control-label">Opis usterki</label>
+            <textarea  class="form-control "></textarea>
+         
+            <input type="button" class="btn btn-lg btn-outline-secondary my-4" value="Zrealizuj płatność"/>
+        </div>
+    </section>
+    </main>
+
