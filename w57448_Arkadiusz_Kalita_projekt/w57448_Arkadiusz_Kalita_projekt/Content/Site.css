@@ -1,6 +1,5 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+ 
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -24,4 +23,11 @@ textarea {
 }
 .footer-image{
     width:120%;
+}
+.indexMain{
+    background-color: #99CCFF;
+}
+.imgIndex {
+    width: 7rem;
+    float: right;
 }
