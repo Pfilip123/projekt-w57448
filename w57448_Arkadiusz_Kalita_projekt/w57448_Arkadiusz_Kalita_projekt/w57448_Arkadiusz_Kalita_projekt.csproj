@@ -286,15 +286,6 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Aplikacja.cshtml" />
-    <Content Include="Views\Home\Lokalizacja.cshtml" />
-    <Content Include="Views\Home\Raport_Sprzedazy.cshtml" />
-    <Content Include="Views\Home\Cennik.cshtml" />
-    <Content Include="Views\Home\Rozliczenie.cshtml" />
-    <Content Include="Views\Home\Sklep_z_czesciami.cshtml" />
-    <Content Include="Views\Home\Lakiernia.cshtml" />
-    <Content Include="Views\Home\Mechanika.cshtml" />
-    <Content Include="Views\Home\Blacharnia.cshtml" />
-    <Content Include="Views\Home\Klimatyzacja.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
