@@ -283,6 +283,7 @@
     <Content Include="Views\Home\Aplikacja.cshtml" />
     <Content Include="Views\Home\Lokalizacja.cshtml" />
     <Content Include="Views\Home\Raport_Sprzedazy.cshtml" />
+    <Content Include="Views\Home\Cennik.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
