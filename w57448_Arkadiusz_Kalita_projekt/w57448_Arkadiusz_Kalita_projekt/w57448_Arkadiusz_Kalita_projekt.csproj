@@ -299,6 +299,7 @@
     <Content Include="Views\Home\Raport_Sprzedazy.cshtml" />
     <Content Include="Views\Home\Rozliczenie.cshtml" />
     <Content Include="Views\Home\Sklep_z_czesciami.cshtml" />
+    <Content Include="Views\Home\Umawianie_wizyt.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
