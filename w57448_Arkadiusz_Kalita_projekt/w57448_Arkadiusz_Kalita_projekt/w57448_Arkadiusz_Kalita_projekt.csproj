@@ -281,6 +281,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Aplikacja.cshtml" />
     <Content Include="Views\Home\O_nas.cshtml" />
+    <Content Include="Views\Home\Oferta.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

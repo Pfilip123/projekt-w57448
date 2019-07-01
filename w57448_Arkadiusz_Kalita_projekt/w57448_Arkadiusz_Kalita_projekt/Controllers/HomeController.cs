@@ -34,5 +34,9 @@ namespace w57448_Arkadiusz_Kalita_projekt.Controllers
         {
             return View();
         }
+        public ActionResult Oferta()
+        {
+            return View();
+        }
     }
 }
