@@ -188,6 +188,8 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\obrazki\u1.jpg" />
+    <Content Include="Content\obrazki\u10.png" />
     <Content Include="Content\obrazki\u11.png" />
     <Content Include="Content\obrazki\u9.png" />
     <Content Include="favicon.ico" />
@@ -277,6 +279,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Home\Aplikacja.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

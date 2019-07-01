@@ -31,3 +31,13 @@ textarea {
     width: 7rem;
     float: right;
 }
+.aplikacja {
+    background-image: url('obrazki/u1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.aplikacja-section{
+    font-size:1.6em;
+    line-height:1.1em;
+}
