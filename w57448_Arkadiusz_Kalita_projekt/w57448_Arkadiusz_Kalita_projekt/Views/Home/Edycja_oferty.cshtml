@@ -1,0 +1,20 @@
+﻿<a href="@Url.Action("Index", "Home")" class="btn btn-light">Strona główna</a>
+<nav style="background-color:#99CCFF" class="text-center py-3">
+    <a href="@Url.Action("Index","Home")"><img src="~/Content/obrazki/u5.png" class="float-left mt-2 ml-4" /></a>
+    <h2 class="lokalizacja-h2">Edycja oferty</h2>
+</nav>
+
+@{
+    ViewBag.Title = "Edycja_oferty";
+}
+
+    <br>Rodzaj usługi<br />
+    <input type="text" class="form-control" />
+    <br>Opis<br />
+    <textarea class="form-control"></textarea>
+    <br>Data umówienia<br />
+    <input type="text" class="form-control" />
+    <br />
+
+<br><a href="" class="btn btn-primary">Edytuj</a><br />
+

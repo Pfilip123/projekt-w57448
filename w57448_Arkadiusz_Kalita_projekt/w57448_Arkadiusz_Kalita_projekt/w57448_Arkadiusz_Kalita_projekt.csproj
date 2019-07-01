@@ -282,6 +282,7 @@
     <Content Include="Views\Home\Aplikacja.cshtml" />
     <Content Include="Views\Home\O_nas.cshtml" />
     <Content Include="Views\Home\Oferta.cshtml" />
+    <Content Include="Views\Home\Edycja_oferty.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
