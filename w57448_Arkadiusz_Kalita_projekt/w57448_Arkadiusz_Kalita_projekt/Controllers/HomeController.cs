@@ -65,5 +65,13 @@ namespace w57448_Arkadiusz_Kalita_projekt.Controllers
         public ActionResult Klimatyzacja() {
             return View();
                 }
+        public ActionResult O_nas()
+        {
+            return View();
+        }
+        public ActionResult Oferta()
+        {
+            return View();
+        }
     }
 }
