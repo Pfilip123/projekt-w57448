@@ -46,5 +46,22 @@ namespace w57448_Arkadiusz_Kalita_projekt.Controllers
         {
             return View();
         }
+        public ActionResult Sklep_z_czesciami()
+        {
+            return View();
+        }
+        public ActionResult Lakiernia()
+        {
+            return View();
+        }
+        public ActionResult Mechanika()
+        {
+            return View();
+        }
+        public ActionResult Blacharnia()
+        {
+            return View();
+        }
+
     }
 }
