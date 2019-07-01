@@ -3,39 +3,72 @@
     ViewBag.Title = "Zarejestruj";
 }
 
-<h2>@ViewBag.Title.</h2>
+<main class="indexMain">
+    <a href="@Url.Action("Index","Home")"><img src="~/Content/obrazki/u5.png" class=" mt-2 ml-4" /></a>
+    <div class="row my-3">
+        <div class="col-6">
+            <img src="~/Content/obrazki/u9.png" class="imgIndex " />
+        </div>
+        <div class="col-6 text-left">
+            <h5 class="font-weight-bold">
+                Warsztat<br />
+                Samochodowy<br />
+                Ar-Car
+            </h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="m-auto mb-5">
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="form-group">
+                    <label class="col-12 control-label">Imię i nazwisko</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-12 control-label">Adres e-mail</label>
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-12 control-label">Twój numer telefonu</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-12 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                    </div>
+                </div>
+                @*<div class="form-group">
+                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-12 control-label" })
+                <div class="col-md-10">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                </div>
+            </div>
+                *@
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="radio" required /> Akceptuje <span class="font-weight-bold" style="text-decoration:underline"> regulamin</span>
+                    </div>
+                </div>
+                <div class="form-group mb-5">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" class="btn btn-light mx-5" value="Zarejestruj" />
+                    </div>
+                </div>
 
-@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-{
-    @Html.AntiForgeryToken()
-    <h4>Utwórz nowe konto.</h4>
-    <hr />
-    @Html.ValidationSummary("", new { @class = "text-danger" })
-    <div class="form-group">
-        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            }
         </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
-            <input type="submit" class="btn btn-default" value="Zarejestruj" />
-        </div>
-    </div>
-}
-
+</div>
+</main>
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
